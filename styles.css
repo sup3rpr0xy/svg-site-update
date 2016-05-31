@@ -46,9 +46,17 @@ header {
     line-height: 1em;
   }
 
-.icons {
+.heart,
+.contact{
   height: 13px;
-  width: 13px;
+}
+
+.location {
+  height: 14px;
+}
+
+svg path:hover {
+  fill: #111;
 }
 
 .logo {
