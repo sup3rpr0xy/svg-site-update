@@ -46,9 +46,13 @@ header {
     line-height: 1em;
   }
 
+.icons {
+  height: 13px;
+  width: 13px;
+}
+
 .logo {
-  margin: 0 auto;
-  background: transparent url('../svgs/logo.svg') center center no-repeat;  
+  margin: 0 auto;  
   height: 120px;
   width: 140px;
 }
