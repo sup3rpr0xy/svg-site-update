@@ -5,7 +5,8 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: url('images/background.png') #edeff0;
+  background: url('svgs/background.svg') #edeff0;
+  background-size: 53px 50px;
 }
 
 #container {
@@ -44,6 +45,13 @@ header {
   header h1 {
     line-height: 1em;
   }
+
+.logo {
+  margin: 0 auto;
+  background: transparent url('../svgs/logo.svg') center center no-repeat;  
+  height: 120px;
+  width: 140px;
+}
 
 main {
   padding-top: 50px;
