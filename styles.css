@@ -31,6 +31,10 @@ a {
     color: #111;
   }
 
+.logo-title {
+  display: none;
+}
+
 header {
   padding-top: 10px;
 }
@@ -94,4 +98,14 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 420px) {
+  .logo-title {
+    display: inline-block;
+  }
+  .logo-icon-text {
+    display: none;
+  }
 }
